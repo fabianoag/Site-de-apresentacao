@@ -1,0 +1,214 @@
+@charset "utf-8";
+body {
+	background-color: #E1F0FF;
+	background: url(../imagens/azul.jpg);
+	background-size: cover;
+	background-position: left right;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.div-quadro {
+	border-top-width: 30px;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #80B3FF;
+	border-right-color: #80B3FF;
+	border-bottom-color: #80B3FF;
+	border-left-color: #80B3FF;
+	width: 280px;
+	height: 280px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #FFF;
+	cursor:pointer;
+
+}
+.div-quadro:hover{
+	border-top-color: #0066FF;
+	border-right-color: #0066FF;
+	border-bottom-color: #0066FF;
+	border-left-color: #0066FF;
+}
+
+.div-principal {
+	background-color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
+	border: thin solid #999;
+	border-radius: 10px;
+}
+.div-top{
+	width: 1200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	border: thin solid #666;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-image: url(../imagens/banner.png);	
+}
+.div-Conteudo{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	background-color: #FFF;
+	border: thin solid #666;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.div-menu{
+	width: 1200px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: thin solid #666;
+/*	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	background-image: url(../imagens/linha.jpg);
+}
+
+.ul-list-links{
+	margin-top:0.9em;
+	margin-bottom:0;
+	height:30px;
+}
+
+.ul-list-links li{
+	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	list-style-type: none;
+	display: inline;
+}
+.ul-list-links li:nth-child(1n+2){
+	border-left-width: medium;
+	border-left-style: solid;
+	border-left-color: #FFF;
+}
+
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+
+hr {
+	border: 1px solid #00F;
+}
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.div-titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #79A5FF;
+	color: #FFF;
+	border: thin solid #00F;
+	border-radius: 10px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 90px;
+	background-image:url(../imagens/azul1.jpg)
+}
+.div-mini-img-pf {
+	background-color: #FFF;
+	height: 650px;
+	border: medium solid #CCC;
+	overflow:auto;
+}
+.table-mini-img-pf {
+	text-align: center;
+}
+.div-img-pf {
+	width: 800px;
+	height: 650px;
+	background-color: #FFF;
+	text-align: center;
+	border: medium solid #CCC;
+}
+
+.img-mini {
+	box-shadow: 5px 5px 15px #666;
+}
+.div-Conteudo .div-principal .table-borda tr td .div-img-pf p #mostra-img {
+	border: thin solid #000;
+	box-shadow: 5px 5px 15px #666;
+}
+.div-form {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 450px;
+	border: thin solid #CCC;
+	padding: 15px;
+	height: 500px;
+}
+.div-Conteudo .div-principal .div-form p #Enviar {
+	float: right;
+	font-size: 14px;
+	width: 100px;
+	height: 30px;
+}
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(../imagens/azul.jpg) no-repeat;
+	background-size: cover; 
+}
+.filtro_video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -999;
+	background-size: cover;
+	background-image: url(../videos/filtro.png);
+	background-repeat: repeat;
+}
