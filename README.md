@@ -1,5 +1,5 @@
 # Site de apresentação
-Aqui esta um site de apresentação sobre min feito em Html, css e jQuery. 
+Aqui esta um site de apresentação sobre min feito em bootstrap 4. 
 
 Observação
 > Esta página este em construção.
